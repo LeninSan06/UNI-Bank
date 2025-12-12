@@ -1,0 +1,34 @@
+{
+  "33334444": {
+    "dni": "33334444",
+    "name": "Eve",
+    "balance": 125.0,
+    "face_image": null,
+    "pin": "3333",
+    "transactions": [
+      {
+        "type": "deposit",
+        "amount": 200.0
+      },
+      {
+        "type": "transfer_out",
+        "amount": 75.0,
+        "to": "44445555"
+      }
+    ]
+  },
+  "44445555": {
+    "dni": "44445555",
+    "name": "Frank",
+    "balance": 75.0,
+    "face_image": null,
+    "pin": "4444",
+    "transactions": [
+      {
+        "type": "transfer_in",
+        "amount": 75.0,
+        "from": "33334444"
+      }
+    ]
+  }
+}
