@@ -1,0 +1,17 @@
+# Librerías externas necesarias para Banca UNI
+opencv-python==4.8.1.78
+numpy==1.24.3
+
+# Nota: Las siguientes librerías vienen incluidas con Python:
+# - tkinter (GUI, incluida en Python 3.x)
+# - json (persistencia de datos)
+# - os (manejo de archivos)
+# - sys (variables del sistema)
+# - time (pausas/tiempos)
+# - typing (anotaciones de tipo)
+# - hashlib (encriptación)
+
+# Módulos locales del proyecto (no requieren pip install):
+# - bank.py (lógica bancaria)
+# - face_auth.py (autenticación facial)
+# - gui.py (interfaz gráfica)
